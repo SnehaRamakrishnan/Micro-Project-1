@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    background-color: #ffffff; /* White background */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000; /* Black text */
+}
+
+h2, h3 {
+    color: #942e37; /* Pale red */
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form input:focus {
+    border-color: #00796b; /* Teal border on focus */
+    outline: none;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #00796b; /* Teal button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: #004d99; /* Darker teal on hover */
+    transform: scale(1.05);
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    text-align: center; /* Center text in table */
+    margin: 0 auto; /* Center the table itself */
+    flex: 1; /* Allows each section to take equal space */
+    min-width: 280px; /* Ensure sections don’t get too small on narrow screens */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #00796b; /* Teal */
+    color: white;
+    font-weight: bold;
+}
+
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    color: #000; /* Black text color for both table headers and cells */
+}
+
+table th {
+    background-color: #00796b; /* Teal */
+    color: white; /* White text for headers */
+}
+
+table td {
+    color: #000; /* Black text for table cells */
+}
+
+
+table button {
+    padding: 8px 15px;
+    font-size: 1rem;
+    background-color: #00796b; /* Teal */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+table button:hover {
+    background-color: #004d99;
+    transform: scale(1.05);
+}
+
+.message {
+    color: #00796b; /* Teal */
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.dashboard {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+/* Flexbox container for arranging sections side by side */
+.dashboard-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; /* Space between the sections */
+    flex-wrap: wrap; /* Ensures that sections wrap on smaller screens */
+    margin-top: 30px;
+}
+
+/* Styling for each section */
+.dashboard-section {
+    flex: 1; /* Allows each section to take equal space */
+    min-width: 280px; /* Ensure sections don’t get too small on narrow screens */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 15px;
+    background-color: #00796b; /* Teal footer */
+    color: #000; /* Black text */
+    text-align: center;
+}
+
